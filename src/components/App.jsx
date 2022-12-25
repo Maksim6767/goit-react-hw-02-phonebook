@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
    align-items:center;
    color: '#010101'; 
   }
-`;
+`;  
 
 export class App extends Component {
   state = {
