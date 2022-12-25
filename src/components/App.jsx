@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { ContactForm } from './ContactForm/ContactForm';
-import { Contaclist, ContactList } from './ContactList/ContactList';
+import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
 import { nanoid } from 'nanoid';
 
