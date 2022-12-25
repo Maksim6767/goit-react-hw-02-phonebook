@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
    display: flex;
    justify-content:center;
    align-items:center;
-   color: '#010101'; 
+   color: '#090909'; 
   }
 `;  
 
@@ -28,7 +28,7 @@ export class App extends Component {
   };
 
   addContact = (values, { resetForm }) => {
-    const newContact = { id: nanoid(3), ...values };
+    const newContact = { id: nanoid(8), ...values };
     const newContactName = newContact.name.toLowerCase();
     if (
       this.state.contacts.find(
